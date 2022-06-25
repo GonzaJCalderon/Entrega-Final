@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pica</title>
     <link rel="stylesheet" href="/CSS/Styles.css">
-    <link rel="shorcut icon" href="/imagenes/Favico.ico"/>
-    <link rel="stylesheet" href="/CSS/mediaQueries.css">
+    <link rel="shorcut icon" href="/imagenes/Favico.ico">
     <script src="https://kit.fontawesome.com/9cccfda58f.js" crossorigin="anonymous"></script>
 </head>
 <body> 
@@ -25,21 +24,67 @@
     
           </nav>
     </header>
-            
-        <div class="row">
-            <div class="column"></div>
-                <img src="/imagenes/Fotos/vino 1.jpg" alt="botella de vino">
-            </div>
-            <div>
-                <img src="/imagenes/Fotos/vino 2.jpg" alt="botella de vino">
-            </div>
-            <div>
-                <img src="/imagenes/Fotos/huevo 1.jpg" alt="huevo de chocolate">
-                </div>        
-            <div>
-                <img src="/imagenes/Fotos/huevo 2.jpg" alt="botella de vino">
-            </div>
-        </div>
+
+    <main class="hero"> 
+        <div class="info-content">
+            <h1>Fotografias</h1> 
+            <p>Tus productos y eventos se veran increibles a traves de nuestras Fotografias</p>
+
+            <span class="linea"></span>
+            <section class="galeria">
+        
+            <a href="#image1">
+                <img src="/imagenes/Fotos/vino 1.jpg" alt="Botella de vino">
+            </a>
+
+            <a href="#image2">
+                <img src="/imagenes/Fotos/vino 2.jpg" alt="Botella de vino">
+            </a>
+
+            <a href="#image3">
+                <img src="/imagenes/Fotos/huevo 1.jpg" alt="Huevo de chocolate">
+            </a>
+
+            <a href="#image4">
+                <img src="/imagenes/Fotos/huevo 2.jpg" alt="huevo de chocolate">
+            </a>
+        </section>
+
+        <article class="light-box" id="image1">
+            <a href="#image4" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+            <img src="/imagenes/Fotos/vino 1.jpg" alt="botella de vino">
+            <a href="#image2" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#"  class="close">x</a>
+
+        </article>
+
+        <article class="light-box" id="image2">
+            <a href="#image1" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+            <img src="/imagenes/Fotos/vino 2.jpg" alt="botella de vino">
+            <a href="#image3" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#"  class="close">x</a>
+
+        </article>
+
+        <article class="light-box" id="image3">
+            <a href="#image2" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+            <img src="/imagenes/Fotos/huevo 1.jpg" alt="huevo de chocolate">
+            <a href="#image4" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#"  class="close">x</a>
+
+        </article>
+
+<article class="light-box" id="image4">
+            <a href="#image4" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+            <img src="/imagenes/Fotos/huevo 2.jpg" alt="huevo de chocolate">
+            <a href="#image1" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#"  class="close">X</a>
+
+        </article>
+
+
+
+
 
     <footer class="footer">
         <div class="siguenos">
